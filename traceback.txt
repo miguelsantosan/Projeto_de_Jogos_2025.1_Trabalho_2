@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/credits.rpy", line 3, in script
+    left "Feito por:\n
+TypeError: got an unexpected keyword argument 'interact'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/credits.rpy", line 3, in script
+    left "Feito por:\n
+  File "E:\Downloads\Engines\renpy-8.3.6-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "E:\Downloads\Engines\renpy-8.3.6-sdk\renpy\ast.py", line 623, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\Downloads\Engines\renpy-8.3.6-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "E:\Downloads\Engines\renpy-8.3.6-sdk\renpy\atl.py", line 623, in __call__
+    new_scope = signature.apply(args, kwargs, partial=True, apply_defaults=False)
+  File "E:\Downloads\Engines\renpy-8.3.6-sdk\renpy\parameter.py", line 384, in apply
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'interact'
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.3.6.25022803
+Quando Jack se Impressiona 1.0
+Mon May 26 20:35:22 2025

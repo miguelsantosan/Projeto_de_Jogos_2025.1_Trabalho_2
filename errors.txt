@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/credits.rpy", line 2: 'centered' is not a keyword argument or valid child of the screen statement.
+    centered "Test Test Test"
+            ^
+
+Ren'Py Version: Ren'Py 8.3.6.25022803
+Mon May 26 20:17:53 2025
